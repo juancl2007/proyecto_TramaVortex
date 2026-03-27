@@ -6,6 +6,9 @@ import { Footer } from './Components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 import './App.css'
+import { FaFacebook } from "react-icons/fa"
+import { FaInstagram } from "react-icons/fa"
+import { FaTwitter } from "react-icons/fa"
 
 
 function App() {
@@ -17,6 +20,9 @@ function App() {
      <About />
      <Contact />
      <Footer />
+     <FaFacebook />
+     <FaInstagram />
+      <FaTwitter />
     </>
   )
 }
